@@ -1,0 +1,23 @@
+name: Warps
+version: 1.0.0
+description: Everything Warps! 
+main: io.GitHub.RamiHalabi.Warps.Main
+commands:
+
+  warp:
+    description: Teleport to a warp location.
+    uses: /warp <WarpName>
+    
+  setWarp:
+    description: Creates a warp location.
+    uses: /setWarp <newLocation>
+
+  delWarp:
+    description: Deletes a warp location.
+    uses: /delwarp <WarpName>
+    
+  back:
+    description: Teleports you to where you last died/teleported!.
+    uses: /back    
+    
+ 
