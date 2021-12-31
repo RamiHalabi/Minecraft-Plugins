@@ -7,19 +7,19 @@ commands:
 
   warp:
     description: Teleport to a warp location.
-    usage: "Usage:  /warp <WarpName>"
+    usage: "/warp [WarpName]"
     
   setWarp:
     description: Creates a warp location.
-    usage: "Usage:  /setWarp <newLocation>"
+    usage: "/setWarp [newLocation]"
 
   delWarp:
     description: Deletes a warp location.
-    usage: "Usage:  /delwarp <WarpName>"
+    usage: "/delwarp [WarpName]"
     
   back:
     description: Teleports you to where you last died/teleported!.
-    usage: "Usage:  /back"
+    usage: "/back"
 
     
  
