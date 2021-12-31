@@ -11,7 +11,7 @@ Custom Minecraft Plugins! (1.18.1)
 
 
 
-<b>2. <b>General Commands</b>
+<b>2. General Commands</b>
   - /home : Teleports player to a set home location
   - /setHome : Sets a players home location
   - /heal : Heals a player to max health
