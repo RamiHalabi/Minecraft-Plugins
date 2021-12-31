@@ -1,23 +1,25 @@
 name: Warps
 version: 1.0.0
+author: TurboBass
 description: Everything Warps! 
 main: io.GitHub.RamiHalabi.Warps.Main
 commands:
 
   warp:
     description: Teleport to a warp location.
-    uses: /warp <WarpName>
+    usage: "Usage:  /warp <WarpName>"
     
   setWarp:
     description: Creates a warp location.
-    uses: /setWarp <newLocation>
+    usage: "Usage:  /setWarp <newLocation>"
 
   delWarp:
     description: Deletes a warp location.
-    uses: /delwarp <WarpName>
+    usage: "Usage:  /delwarp <WarpName>"
     
   back:
     description: Teleports you to where you last died/teleported!.
-    uses: /back    
+    usage: "Usage:  /back"
+
     
  
