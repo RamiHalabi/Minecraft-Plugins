@@ -1,0 +1,38 @@
+name: GeneralCommands
+version: 1.0.0
+description: Various useful commands
+author: TurboBass
+main: io.GitHub.RamiHalabi.GeneralCommands.Main
+commands:
+
+  heal:
+    description: Restore users health points.
+    usage: "/heal"
+    
+  feed:
+    description: Statiates players appetite.
+    usage: "/feed"
+
+  repair:
+    description: Fixes the item in players hand.
+    usage: "/repair"
+    
+  home:
+    description: Teleport to players home. Allowed up to three homes 
+    usage: "/home"
+    aliases: h
+    
+  setHome:
+    description: Sets the players home. Allowed up to three homes
+    usage: "/setHome"
+ 
+  GoodDay:
+    description: Chanes the time to 0 and weather to clear.
+    usage: "/gd"
+    aliases: gd
+    
+  gm:
+    description: Sets users gamemode to creative/survival (1/0). 
+    usage: "/gm [gamemode: (1/0)] "
+  
+           
