@@ -1,0 +1,5 @@
+name: PlayerScoreBoard
+version: 1.0.0
+author: TurboBass
+description: Fun graphical additions to enhance gameplay 
+main: io.GitHub.RamiHalabi.PlayerScoreBoard.Main
